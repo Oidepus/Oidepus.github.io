@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>REGISTRATION</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <div id="navbar">
+    <nav>
+      <a href="./home.htm">HOME</a>
+      <a href="./localdishes.htm">LOCAL DISHES</a>
+      <a href="./historicalplaces.htm">HISTORICAL PLACES</a>
+      <a href="./usefullinks.htm">USEFUL LINKS</a>
+      <a href="./aboutme.htm">ABOUT ME</a>
+      <a href="./contactme.htm">CONTACT ME</a>
+      <a style="font-size:23px;" href="./registration.htm"><strong>REGISTRATION</strong></a>
+    </nav>
+  </div>
+  <form style="text-align:center;" action="./accept.htm">
+    <label for="FirstName">Name:</label> <br>
+    <input type="text" id="FirstName" name="FirstName" required><br>
+    <label for="Surname">Surname:</label> <br>
+    <input type="text" id="Surname" name="Surname" required> <br>
+    <label for="Birth">Date Of Birth:</label> <br>
+    <input type="date" id="Birth" name="Birth"> <br>
+    <label for="contact_email">E-mail:</label> <br>
+    <input name="contact_email" id="contact_email" type="email"> <br>
+    <select name="Gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Unknown">Don't want to specify</option>
+    </select><br>
+    <pre>
+    Interests:<input type="checkbox" name="1"> Watching Anime <br>
+                                     <input type="checkbox" name="2"> Watching People For Making Deductions <br>
+                              <input type="checkbox" name="3"> Buying Book Just For Its Smell <br>
+     </pre>
+    <input type="submit" name="Submit">
+    <input type="reset" name="reset">
+  </form>
+</body>
+
+</html>
