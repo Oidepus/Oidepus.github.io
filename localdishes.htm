@@ -4,25 +4,36 @@
 <head>
   <title>LOCAL DISHES</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <div id="navbar">
-    <nav>
-      <a href="./home.htm">HOME</a>
-      <a style="font-size:23px;" href="./localdishes.htm">LOCAL DISHES</a>
-      <a href="./historicalplaces.htm">HISTORICAL PLACES</a>
-      <a href="./usefullinks.htm">USEFUL LINKS</a>
-      <a href="./aboutme.htm">ABOUT ME</a>
-      <a href="./contactme.htm">CONTACT ME</a>
-      <a href="./registration.htm">REGISTRATION</a>
-    </nav>
-    <div id="Content">
-      <ul>
-        <li><a href="#Foods">Foods</a></li>
-        <li><a href="#Restaurants">Restaurants</a></li>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="collapse_target">
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="./home.htm"><strong>HOME</strong></a></li>
+        <li class="nav-item"><a class="nav-link" href="./localdishes.htm">LOCAL DISHES</a></li>
+        <li class="nav-item"><a class="nav-link" href="./historicalplaces.htm">HISTORICAL PLACES</a></li>
+        <li class="nav-item"><a class="nav-link" href="./usefullinks.htm">USEFUL LINKS</a></li>
+        <li class="nav-item"><a class="nav-link" href="./aboutme.htm">ABOUT ME</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contactme.htm">CONTACT ME</a></li>
+        <li class="nav-item"><a class="nav-link" href="./registration.htm">REGISTRATION</a></li>
       </ul>
     </div>
+  </nav>
+  <div id="Content">
+    <ul>
+      <li><a href="#Foods">Foods</a></li>
+      <li><a href="#Restaurants">Restaurants</a></li>
+    </ul>
+  </div>
   </div>
   <div id="Foods">
     <h1><strong>FOODS</strong></h1>
